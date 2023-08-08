@@ -1,0 +1,83 @@
+*{
+    color: black;
+    font-family: cursive;
+}
+
+header{
+    background-image: url(../images/design1_image2.jpg);
+    background-size: 100% 150%;
+    background-color: aqua;
+    margin-top: 10rem;
+}
+
+h1{
+    position: absolute;
+    top: 2rem;
+    font-size: 3.8rem;
+    font-style: oblique;
+    background-color: none;
+}
+
+h2{
+    text-align: center;
+    margin: 0em;
+    border: 0.1em solid black;
+    font-size: 2rem;
+}
+
+article{
+    display: block;
+    position: relative;
+    bottom: 10rem;
+    left: 15rem;
+    background-color: none;
+    font-size: 1.5rem;
+}
+
+nav{
+    display: inline-block;
+    position: absolute;
+    top: 8.5rem;
+    left: 56rem;
+    font-size: 1.8rem;
+}
+
+section img{
+    margin-top: 4rem;
+    background-color: none;
+}
+
+#home{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+#about{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#contact{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#mail{
+    color: blue;
+}
+
+p{
+    margin: 2.5rem;
+    margin-top: -2rem;
+    width: 70%;
+}
