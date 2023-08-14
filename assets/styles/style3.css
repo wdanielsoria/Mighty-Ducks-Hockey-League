@@ -72,7 +72,7 @@ nav {
     text-decoration: none;
 }
 
-#schedules {
+#schedule {
     padding: 0.1em 0.8em;
     border: 0.1em solid black;
     background-color: rgb(4, 75, 51);
@@ -108,7 +108,7 @@ nav {
     color: black;
 }
 
-#schedules:hover {
+#schedule:hover {
     background-color: orange;
     color: black;
 }
