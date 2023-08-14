@@ -1,20 +1,87 @@
 *{
-    color: black;
+    margin: 0;
+    box-sizing: content-box;
     font-family: cursive;
 }
 
 header{
+    display: flex;
+    flex-direction: column;
     background-image: url(../images/design1_image2.jpg);
-    background-size: 100% 150%;
-    background-color: aqua;
-    margin-top: 10rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 10vh;
+    height: 40vh;
+    margin-top: 5rem;
 }
 
 h1{
+    font-size: 4rem;
+    margin-top: -5.5rem;
+}
+
+nav{
+    display: inline-block;
     position: absolute;
-    top: 2rem;
-    font-size: 3.8rem;
-    font-style: oblique;
+    top: 4.5rem;
+    left: 26rem;
+    font-size: 1.5rem;
+}
+
+#home{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+#about{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#contact{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#rules{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#schedule{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#form{
+    padding: 0.1em 0.8em;
+    border: 0.1em solid black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    min-height: 90vh;
+}
+
+section img{
+    margin-top: 4rem;
     background-color: none;
 }
 
@@ -32,52 +99,10 @@ article{
     left: 15rem;
     background-color: none;
     font-size: 1.5rem;
-}
-
-nav{
-    display: inline-block;
-    position: absolute;
-    top: 8.5rem;
-    left: 56rem;
-    font-size: 1.8rem;
-}
-
-section img{
-    margin-top: 4rem;
-    background-color: none;
-}
-
-#home{
-    padding: 0.1em 0.8em;
-    border: 0.1em solid black;
-    background-color: green;
-    color: white;
-    text-decoration: none;
-}
-
-#about{
-    padding: 0.1em 0.8em;
-    border: 0.1em solid black;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    
-}
-
-#contact{
-    padding: 0.1em 0.8em;
-    border: 0.1em solid black;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
+    width: 82%;
+    height: 100%;
 }
 
 #mail{
-    color: blue;
-}
-
-p{
-    margin: 2.5rem;
-    margin-top: -2rem;
-    width: 70%;
+    color: rgb(0, 119, 255);
 }
